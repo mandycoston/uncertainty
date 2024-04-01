@@ -5,7 +5,7 @@
 
 # Installation
 
-1. `cd` into the root of the uncertainty repository.
+1. `cd` into the root of the `uncertainty` repository.
 
 2. Delete the previously created virtual environment, if it exists.
    ```bash
