@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:33785f63669865dee26cdc746f7912c7c09f3ad97edb304a37909d1030497ff0"
+content_hash = "sha256:78e93334739a1ebedc7bc90dfa03908b80e0578e77986b08d113bcaddb2880b3"
 
 [[package]]
 name = "anyio"
@@ -344,6 +344,18 @@ files = [
     {file = "contourpy-1.2.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b95a225d4948b26a28c08307a60ac00fb8671b14f2047fc5476613252a129776"},
     {file = "contourpy-1.2.0-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:0d7e03c0f9a4f90dc18d4e77e9ef4ec7b7bbb437f7f675be8e530d65ae6ef956"},
     {file = "contourpy-1.2.0.tar.gz", hash = "sha256:171f311cb758de7da13fc53af221ae47a5877be5a0843a9fe150818c51ed276a"},
+]
+
+[[package]]
+name = "cplex"
+version = "22.1.1.0"
+summary = "A Python interface to the CPLEX Callable Library, Community Edition."
+groups = ["default"]
+files = [
+    {file = "cplex-22.1.1.0-cp310-cp310-macosx_10_6_x86_64.whl", hash = "sha256:06940514b5bb9392e529b704d881669d02333ef8417a30ef4289b4bf9107a250"},
+    {file = "cplex-22.1.1.0-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:828519463c00ba09c5262eeb90a74fd29119f993a192bf0259e79cbb7c2eb597"},
+    {file = "cplex-22.1.1.0-cp310-cp310-manylinux2014_ppc64le.whl", hash = "sha256:24092dac9345e893b4c4f756c7a4b36c65620bb368573e30e58a10c223511bb4"},
+    {file = "cplex-22.1.1.0-cp310-cp310-win_amd64.whl", hash = "sha256:b1d760f789ad002ba11ac119ee8f23980905f466199f22adcf50b3e1edb24d3e"},
 ]
 
 [[package]]
