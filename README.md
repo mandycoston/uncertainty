@@ -15,7 +15,7 @@
 3. Create a Python virtual environment.
    ```bash
    mkdir -p .venv
-   python3 -m venv .venv --prompt=uncertainty
+   python3.10 -m venv .venv --prompt=uncertainty
    ```
 4. Activate the virtual environment.
    ```bash
